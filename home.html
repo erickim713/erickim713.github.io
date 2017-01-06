@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+	<body>
+<div style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
+<img src='pictures/coffee.jpg' style='width:100%;height:100%' alt='[]' />
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+<!-- it was <nav class="navbar navbar-default"> i changed it to <nav class="navbar navbar-default navbar-fixed-top"> -->
+    <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li><a href="cv.html" target="_blank">CV</a>
+                </li>
+                <li><a href="https://github.com/erickim713" target="_blank">Github Page</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="mailto:erickim713@kaist.ac.kr" target="_top">Mail</a>
+                </li>
+            </ul>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<div class ="container-fluid">
+    <div class ="row">
+        <div class="col-xs-6 col-xs-5" style="padding-top: 60px">
+          <div align="center">
+             <!-- <img src="hyungwoo.jpg" height = "300" width="300" class="img-responsive img-thumbnail"> -->
+             <a href="pictures/hyungwoo.jpg" data-lightbox ="image-1" data-title="Me!"> <img src="pictures/hyungwoo.jpg" height = "300" width="300" class="img-responsive img-thumbnail"></a>
+             <!-- whenever I want to do the lightbox effect all i have to do is this process ^ up there. -->
+            </div>
+        </div>
+        <div class="col-xs-6 col-xs-6" style="padding-top: 60px">
+        <p style="background: white;border: 2px solid #000; border-radius: 25px;padding: 6px;font-family: Arial, Helvetica, sans-serif; font-size: 18px">
+          Hello! My name is HyungWoo Kim. Currently, I am studying Computer Science at <a href="http://www.kaist.ac.kr/html/kr/index.html">KAIST</a>. I love learning and doing stuff. I just got started on making this website too. This website is still in progress. During my spare time, I try to do a fun coding project, tennis or play video games. During weekends I spend time with my family (usually hiking!)
+
+          Have fun looking around my website! I will appreciate any feedback regarding my website or my project. Thank you!</p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-xs-12" style="padding-top: 60px; text-align: center">
+              <div class="gcontainer">
+        <div id="carousel">
+
+        <figure><div class="img"><a href="pictures/family1.jpeg" data-lightbox ="gallery" data-title="Yellowstone family pic"><img src="thumbnails/family1.jpeg" alt=""></a></div></figure>
+        <figure><div class="img"><a href="pictures/family2.jpg" data-lightbox ="gallery" data-title="Hotplace New York City!"><img src="thumbnails/family2.jpg" alt=""></a></div></figure>
+        <figure><div class="img"><a href="pictures/family3.jpg" data-lightbox ="gallery" data-title="Cool Winter Sokcho"><img src="thumbnails/family3.jpg" alt=""></a></div></figure>
+        <figure><div class="img"><a href="pictures/family4.jpg" data-lightbox ="gallery" data-title="Nanta"><img src="thumbnails/family4.jpg" alt=""></a></div></figure>
+        <figure><div class="img"><a href="pictures/family5.jpeg" data-lightbox ="gallery" data-title="Me and My broski"><img src="thumbnails/family5.jpeg" alt=""></a></div></figure>
+        <figure><div class="img"><img src="thumbnails/family1.jpeg" alt=""></div></figure>
+        <figure><div class="img"><img src="thumbnails/family1.jpeg" alt=""></div></figure>
+        <figure><div class="img"><img src="thumbnails/family1.jpeg" alt=""></div></figure>
+        <figure><div class="img"><img src="thumbnails/family1.jpeg" alt=""></div></figure>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+    <script src="css/js/lightbox-plus-jquery.js"></script>
+	</body>
+</html>
