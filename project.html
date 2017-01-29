@@ -5,31 +5,69 @@
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
 	<link rel="stylesheet" type="text/css" href="css/additionalcss.css">
+	<script type="text/javascript" src="css/js/javascript_practice.js"></script>
+	<title>Project</title>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-static-top">
-    <!-- it was <nav class="navbar navbar-default"> i changed it to <nav class="navbar navbar-default navbar-fixed-top"> -->
-        <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="cv.html" target="_blank">website CV</a>
-                    </li>
-                    <li><a href="documents/CV.pdf" target="_blank">formal CV</a>
-                    </li>
-                    <li><a href="https://github.com/erickim713" target="_blank">Github Page</a>
-                    </li>
-					<!-- TODO: add project.html to do the webpage: I need to make it look like a portfolio page :D -->
-    				<li><a href="mailto:erickim713@kaist.ac.kr" target="_top">Mail</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right" style="margin: 10px">
-                    <li><audio controls><source src="music/stitches.mp3" type="audio/mpeg"></audio>
-                    </li>
-                </ul>
-            <!-- /.navbar-collapse -->
-        </div>
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="index.html" target="_self">Home</a>
+				</li>
+				<li>
+					<a href="project.html" target="_self">projects</a>
+				</li>
+				<li><a href="cv.html" target="_blank">website CV</a>
+				</li>
+				<li><a href="documents/CV.pdf" target="_blank">formal CV</a>
+				</li>
+				<li><a href="https://github.com/erickim713" target="_blank">Github Page</a>
+				</li>
+				<li><a href="mailto:erickim713@kaist.ac.kr" target="_top">Mail</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" style="margin: 10px">
+				<li><audio controls><source src="music/stitches.mp3" type="audio/mpeg"></audio>
+				</li>
+			</ul>
+		<!-- /.navbar-collapse -->
+		</div>
         <!-- /.container -->
     </nav>
     <div class ="container">
+		<div class ="row">
+			<div class ="col-xs-6">
+				<h1>TCP/IP Implementation</h1>
+				<p>I implemented TCP/IP in C++. The frame/environment was given
+				for me to code in. I implmented the protocol: three-way-handshake protocol.
+				I also implemented the data structure of the message block as well sending
+				mechanism of the whole system. <br />Language Used: C++
+				<br  />Project: KENS</p>
+				<center>
+					<img src="pictures/networkpicture.jpeg">
+				</center>
+
+				<h1>OpenGL Floppy Cube</h1>
+				<p>
+					Implementation of the one-third of the rubik's cube (Floppy Cube) using
+					cube-mapping method to decorate the square and then using
+					transformation matrix to manipulate the object. Also experienced
+					bump mapping as well. (I used that to decorate the texture appearance
+					of the object). <br />Language Used: C++
+				</p>
+
+				<h1>TSP optimization algorithm</h1>
+				<p>
+					Internship at a small-medium sized company called GigaVis. Implemented a simple
+					solution to TSP optimization problem. Experienced multiple algorithms known(Ex. Genetic Algorithm).
+					<br />Language Used: C++
+				</p>
+			</div>
+			<div class ="col-xs-6">
+				<h3>To be updated...</h3>
+			</div>
+		</div>
     </div>
     <script src="css/js/lightbox-plus-jquery.js"></script>
 </body>
