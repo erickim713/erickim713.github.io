@@ -1,76 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-    <link rel="stylesheet" type="text/css" href="css/gallery.css">
-	<link rel="stylesheet" type="text/css" href="css/additionalcss.css">
-	<title>Home</title>
+	<title>HyungWoo Kim :: Home</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" /> <!-- iOS fullscreen webapp -->
+	<meta name="mobile-web-app-capable" content="yes" />
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<script src="./static/js/jquery-3.2.1.min.js"></script>
+	<script src="./static/js/script.js"></script>
+
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-static-top">
-    <!-- it was <nav class="navbar navbar-default"> i changed it to <nav class="navbar navbar-default navbar-fixed-top"> -->
-        <div class="container">
-                <ul class="nav navbar-nav">
-					<li>
-						<a href="index.html" target="_self">Home</a>
-					</li>
-					<li>
-						<a href="project.html" target="_self">projects</a>
-					</li>
-                    <li><a href="cv.html" target="_blank">website CV</a>
-                    </li>
-                    <li><a href="documents/CV.pdf" target="_blank">formal CV</a>
-                    </li>
-                    <li><a href="https://github.com/erickim713" target="_blank">Github Page</a>
-                    </li>
-    				<li><a href="mailto:erickim713@kaist.ac.kr" target="_top">Mail</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right" style="margin: 10px">
-                    <li><audio controls><source src="music/stitches.mp3" type="audio/mpeg"></audio>
-                    </li>
-                </ul>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <div class ="container">
-        <div class ="row">
-            <div class ="col-xs-4">
-                <a href="pictures/hyungwoo.jpg" data-lightbox ="image-1" data-title="Me!"> <img src="pictures/me.jpg" height = "300" width="300" class="img-responsive img-thumbnail" style="border-radius: 50%"></a>
-            </div>
-            <div class="col-xs-8">
-                <p style="background: white;font-family: Arial, Helvetica, sans-serif; font-size: 18px; padding-top: 50px">
-                  Hello! My name is HyungWoo Kim. Currently, I am studying Computer Science at <a href="http://www.kaist.ac.kr/html/kr/index.html">KAIST</a>. I love learning and doing stuff. I just got started on making this website too. This website is still in progress. During my spare time, I try to do a fun coding project, tennis or play video games. During weekends I spend time with my family (usually hiking!)
+<!-- navigation bar -->
 
-                  Have fun looking around my website! I will appreciate any feedback regarding my website or my project. Thank you!</p>
-            </div>
+<header>
+	<div class="nav-container">
+	<!-- lesson learned from here is that if i try to center the div using the div class navigation, that will only center the things below therefore -->
+		<div class="nav-wrapper">
+		<ul class='navigation™'>		
+		  <li class="nav-link" id="home-button"><a id="home-link" href="index.html">Home</a></li>
+		  <li class="nav-link" id="experience-button"><a id="experience-link" href="experience.html">Experience</a></li>
+		  <li class="nav-link" id="blog-button"><a id="blog-link" href="blog.html">Blog</a></li>
+		  <li class="nav-link" id="contact-button"><a id="contact-link" href="contact.html">Contact</a></li>
+		</ul>  
+		</div>
+	</div> 
+</header>
 
-        </div>
-		<br /><br /><br /><br />
-		<!-- TODO: I need to do something about this breaking lines.. it's annoying me... alot -->
-        <div class ="row">
-            <div class="col-xs-4">
+<!-- photo of myself -->
+<div class="image-section">
+	<img src="./static/images/me.jpeg">
+</div>
+<!-- text -->
+<section class="text-section">
+	<p>Hello! I am HyungWoo Kim (You can also call me Eric). I am 22 years old. I am studying computer science at KAIST</p>
+	<br>
+	<p>I was born in Korea but I moved to U.S and finished 4-12 grades. I moved back to Korea to study computer science in KAIST Computer Science Department. So far, I had the priviledge to intern at GigaVis, SK Hynix, and KAIST Interaction Lab. Current interests are: data visualization, HCI (Human Computer Interaction), and Application Development.
+	</p>
+</section>
 
-            </div>
-            <div class="col-xs-8">
-                <div class="gcontainer">
-                    <div id="carousel">
-                      <figure><div class="img"><a href="pictures/family1.jpeg" data-lightbox ="gallery" data-title="Yellowstone family pic"><img src="thumbnails/family1.jpeg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family2.jpg" data-lightbox ="gallery" data-title="Hotplace New York City!"><img src="thumbnails/family2.jpg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family3.jpg" data-lightbox ="gallery" data-title="Cool Winter Sokcho"><img src="thumbnails/family3.jpg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family4.jpg" data-lightbox ="gallery" data-title="Nanta"><img src="thumbnails/family4.jpg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family5.jpeg" data-lightbox ="gallery" data-title="Me and My broski"><img src="thumbnails/family5.jpeg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family6.jpeg" data-lightbox ="gallery" data-title="Bukhansan fam pic"><img src="thumbnails/family6.jpeg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family6.jpeg" data-lightbox ="gallery" data-title="Bukhansan fam pic"><img src="thumbnails/family6.jpeg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family6.jpeg" data-lightbox ="gallery" data-title="Bukhansan fam pic"><img src="thumbnails/family6.jpeg" alt=""></a></div></figure>
-                      <figure><div class="img"><a href="pictures/family6.jpeg" data-lightbox ="gallery" data-title="Bukhansan fam pic"><img src="thumbnails/family6.jpeg" alt=""></a></div></figure>
-                    </div>
-              </div>
-          </div>
-        </div>
-    </div>
-    <script src="css/js/lightbox-plus-jquery.js"></script>
+
+</div>
 </body>
 </html>
