@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HyungWoo Kim :: Home</title>
+	<title>HyungWoo Kim :: Experience</title>
 	<meta name="apple-mobile-web-app-capable" content="yes" /> <!-- iOS fullscreen webapp -->
 	<meta name="mobile-web-app-capable" content="yes" />
 	<link rel="stylesheet" type="text/css" href="./static/css/style.css" />
@@ -27,21 +27,22 @@
 		</div>
 	</div> 
 </header>
-<table class="experience-table">
+<table id='main-table' class="experience-table">
 <!-- chooser user interface -->
 	<tr>
-		<th colspan="2" class="chooser"><button class='button' id='all'>All</button>
-		<button class='button' id='work'>Work</button>
-		<button class='button' id='school'>School</button>
-		<button class='button' id='personal'>Personal</button></th>
+		<th colspan="2" class="chooser">
+		<button class='button active-button' id='all'>All</button>
+		<button class='button not-active-button' id='work'>Work</button>
+		<button class='button not-active-button' id='school'>School</button>
+		<button class='button not-active-button' id='personal'>Personal</button></th>
 		<th></th> <!--place holder i don't know if it's needed but for now, let's put it here -->
 	</tr>
 	<!-- starting here is the work experience -->
-	<tr id='work-header' class="work-header">
+	<tr class="work-header">
 		<td colspan="2" style="padding-bottom: 3vh"><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Work Experience</td>
 	</tr>
 
-	<tr id='work' class='work-entry'>
+	<tr class='work-entry'>
 		<td class="first-col"><img src="./static/images/skhynix.png" width="130px"></td>
 		<td class='second-col'>
 			SK Hynix Internship (2016 Summer)<br>
@@ -49,7 +50,7 @@
 			Studied Benchmarking Issues
 		</td>
 	</tr>
-	<tr id='work' class='work-entry'>
+	<tr class='work-entry'>
 		<td class="first-col"><img src="./static/images/gigavis.jpg" width="130px"></td>
 		<td class='second-col'>
 			SK Hynix Internship (2015 Winter)<br>
@@ -59,10 +60,10 @@
 	</tr>
 
 	<!-- starting here is the school experience -->
-	<tr id='school-header' class="school-header">
+	<tr class="school-header">
 		<td colspan="2" style="padding-bottom: 3vh"><i class="fa fa-book fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;School Experience</td>
 	</tr>
-	<tr id='school' class="school-entry">
+	<tr class="school-entry">
 		<td class="first-col"><img src="./static/images/kixlab.png" width="130px"></td> 
 		<td class="second-col">
 			KAIST Interaction Lab Internship (2017 Spring)<br>
@@ -70,7 +71,7 @@
 			Chatbot Interaction Research & Human Computer Interaction (HCI) (Python)
 		</td>
 	</tr>
-	<tr id='school' class="school-entry">
+	<tr class="school-entry">
 		<td class="first-col"><img src="./static/images/cs.png" width="130px"></td> 
 		<td class="second-col">
 			KAIST Course Projects<br>
@@ -82,8 +83,8 @@
 			</ul>
 		</td>
 	</tr>
-	<tr id='personal' class='personal-entry'>
-	
+	<tr class='personal-entry'>
+
 	</tr>
 
 	<!-- starting here is the personal project -->
