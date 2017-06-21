@@ -163,6 +163,61 @@ body{
 /*end of my css index.html*/
 
 /*start of my css experience.html*/
+.experience-table{
+    /*border: 2px solid black;*/
+    width: 70vw;
+    margin: auto;
+}
+.chooser{
+    text-align: left;
+    padding-bottom: 3vh;
+}
+.active-button{
+    background: black;
+    color: white;
+}
+.button{
+    background: white; /* Green */
+    border: black 1px solid;
+    color: black;
+    padding: 1vh 1vw; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10%;   
+}
+.button:hover{
+    background: black;
+    color: white;
+
+}
+.button:focus{
+    outline: 0;
+}
+
+.experience-table td{
+    /*border: 1px solid black;*/
+}
+.work-entry{
+    
+}
+.first-col{
+    width: 130px;
+}
+.second-col{
+    vertical-align: top;
+    text-align: left;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+}
+.classes-taken{
+    padding-left: 3vw;
+}
 /*end of my css experience.html*/
 
 /*start of my css blog.html*/
@@ -176,10 +231,11 @@ body{
     /*margin-right: 20vw;*/
     padding-top: 15vh;
     letter-spacing: 0.05vh;
-    margin-right: 4vw;
+    
     margin-left: 13vw;
 }
-.map{
-    
+iframe{
+    margin-left: 7vw;
+    margin-top: 7vh;
 }
 /*end of my css contact.html*/
