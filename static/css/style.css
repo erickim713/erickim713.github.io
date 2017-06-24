@@ -1,8 +1,8 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -15,7 +15,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -32,7 +32,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -68,7 +68,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -91,7 +91,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -108,7 +108,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     line-height: 4vh;
     width: 100%;
-    /*trick in trying to hide the space at the top. when you want to do the fixed navigation bar there seems to be 
+    /*trick in trying to hide the space at the top. when you want to do the fixed navigation bar there seems to be
     space at the top. this erases it to the point where it's unnoticeable.*/
 }
 
@@ -182,8 +182,8 @@ body{
     color: black;
 }
 .button{
-    border: black 1px solid; 
-    padding: 1vh 1vw; 
+    border: black 1px solid;
+    padding: 1vh 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -192,7 +192,7 @@ body{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 10%;   
+    border-radius: 10%;
 }
 .button:hover{
     background: black;
@@ -207,7 +207,7 @@ body{
     /*border: 1px solid black;*/
 }
 .work-entry{
-    
+
 }
 .first-col{
     width: 130px;
@@ -234,7 +234,7 @@ body{
     /*margin-right: 20vw;*/
     padding-top: 15vh;
     letter-spacing: 0.05vh;
-    
+
     margin-left: 13vw;
 }
 iframe{

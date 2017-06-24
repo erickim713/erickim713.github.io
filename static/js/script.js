@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	// this is for the experience ui
 	$('#all').click(function(){
-		
+
 		if($(this).hasClass('not-active-button')){
 			// if all is off then toggleoff
 			toggleon($(this));
@@ -13,9 +13,9 @@ $(document).ready(function(){
 		effect($('#all'), $('#work'), $('#school'), $('#personal'));
 	});
 	$('#work').click(function(){
-		
+
 		if($(this).hasClass('not-active-button')){
-			
+
 			// if work is off then turn it on
 			toggleon($(this));
 			if ($('#all').hasClass('active-button')) {
@@ -23,8 +23,8 @@ $(document).ready(function(){
 			}
 		}
 		else{
-			
-			// when turning off, if rest of the 
+
+			// when turning off, if rest of the
 			toggleoff($(this));
 			if($('#school').hasClass('not-active-button') && $('#personal').hasClass('not-active-button')){
 				// then turn on all automatically
@@ -34,10 +34,10 @@ $(document).ready(function(){
 		effect($('#all'), $('#work'), $('#school'), $('#personal'));
 	});
 	$('#school').click(function(){
-		
-		
+
+
 		if($(this).hasClass('not-active-button')){
-			
+
 			// if work is off then turn it on
 			toggleon($(this));
 			if ($('#all').hasClass('active-button')) {
@@ -45,8 +45,8 @@ $(document).ready(function(){
 			}
 		}
 		else{
-			
-			// when turning off, if rest of the 
+
+			// when turning off, if rest of the
 			toggleoff($(this));
 			if($('#work').hasClass('not-active-button') && $('#personal').hasClass('not-active-button')){
 				// then turn on all automatically
@@ -56,9 +56,9 @@ $(document).ready(function(){
 		effect($('#all'), $('#work'), $('#school'), $('#personal'));
 	});
 	$('#personal').click(function(){
-		
+
 		if($(this).hasClass('not-active-button')){
-			
+
 			// if work is off then turn it on
 			toggleon($(this));
 			if ($('#all').hasClass('active-button')) {
@@ -66,8 +66,8 @@ $(document).ready(function(){
 			}
 		}
 		else{
-			
-			// when turning off, if rest of the 
+
+			// when turning off, if rest of the
 			toggleoff($(this));
 			if($('#school').hasClass('not-active-button') && $('#work').hasClass('not-active-button')){
 				// then turn on all automatically
@@ -76,7 +76,7 @@ $(document).ready(function(){
 		}
 		effect($('#all'), $('#work'), $('#school'), $('#personal'));
 	});
-	
+
 });
 
 function toggleon(x){
