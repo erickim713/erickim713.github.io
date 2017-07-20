@@ -236,7 +236,7 @@ body{
 
 .summary-list{
     padding-left: 3vw;
-    padding-top: 3vh; 
+    padding-top: 3vh;
 }
 
 .blog-image{
@@ -285,3 +285,48 @@ iframe{
     margin-top: 7vh;
 }
 /*end of my css contact.html*/
+
+
+/*blog entry css*/
+
+.wide-image-template{
+    width: 100%;
+}
+
+
+.title-of-blog{
+    /*css for the title of the blog*/
+    margin: 1em 0 2em 2em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+}
+
+.usual-paragraph{
+    margin: 1em 2em 1em 3em;
+    font-family: "Helvetica Neue","Segoe UI",Arial,sans-seri
+}
+
+.sub-title{
+    margin: 1em 2em 1em 1em;
+    font-size:2em;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.footer-link{
+    /*border-radius: 25px;        */
+    border: 1px solid #cccccc;
+    padding:1vw;
+    /*border:1px solid grey;*/
+    text-decoration: none;
+    color:black;
+}
+
+.footer-link:hover{
+    color: white;
+    background: black;
+}
