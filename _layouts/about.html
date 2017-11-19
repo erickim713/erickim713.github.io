@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper"><img style=" box-sizing: border-box; margin: 0 auto; width: 100%; height: 100%;
+      display: block; max-width:10em; max-height:11em; width: auto; height: auto; border-radius: 7%" src="{{ site.url }}/images/mee.png"></div>
+      <div class="wrapper">
+      
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

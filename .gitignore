@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+bower_components
+.DS_Store
+*~
+.ruby_version
+resume.docx

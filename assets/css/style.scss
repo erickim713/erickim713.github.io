@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+#page-wrapper {
+    padding: 0 1.618em;
+    height: 100%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    z-index: 2;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
